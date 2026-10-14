@@ -15,7 +15,7 @@
 | 目录 | 说明 |
 | --- | --- |
 | `Libaries/arm` | 各型号启动文件，当前工程使用 `startup_stm32f40xx.s` |
-| `Libaries/core` | CMSIS 内核头文件与 `system_stm32f4xx.c` |
+| `Libaries/core` | 器件头文件 `stm32f4xx.h`、`system_stm32f4xx.c`，以及 CMSIS 内核头文件（`core_cm4.h` 等，取自 ARM CMSIS 5.9.0） |
 | `Libaries/STM32F4xx_StdPeriph_Driver` | 标准外设库源码（`src`）与头文件（`inc`） |
 | `User` | 主程序、中断服务、库配置 |
 | `DebugConfig` | 调试器配置 |
