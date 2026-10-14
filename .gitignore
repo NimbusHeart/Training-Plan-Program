@@ -1,0 +1,31 @@
+# ---- Keil MDK 编译产物（可重新生成，不入库）----
+Output/
+Listings/
+Objects/
+*.o
+*.crf
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.dep
+*.lnp
+*.htm
+*.build_log.htm
+*.iex
+*.scvd
+*.__i
+*.bak
+JLinkLog.txt
+
+# ---- Keil 用户界面本地设置 ----
+*.uvguix.*
+*.uvopt.bak
+
+# ---- 系统杂项 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
